@@ -1,0 +1,67 @@
+.container{
+  position: relative;
+}
+.bg_img1,.bg_img2,.bg_img3{
+    animation: img1 4s ease 2s ;
+    margin-top: -7px;
+}
+ img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+@keyframes img1 {
+    0% {
+      transform: translateY(-20%);
+    }
+    50% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(-200%);
+    }
+  }
+  @keyframes img2 {
+    0% {
+      transform: translateY(-20%);
+    }
+    50% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(-200%);
+    }
+  }
+  @keyframes img3 {
+    0% {
+      transform: translateY(-20%);
+    }
+    50% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(-200%);
+    }
+  }
+  .forward {
+      width: 8%;
+      font-size: 14px;
+      position: fixed;
+      top: 50%;
+      right: 0%;
+      z-index: 5;
+  }
+  .forward span{
+      font-size: 14px;
+      margin: auto;
+      margin-top: -2%;
+  }
+  .forward span+span{
+      font-size: 50px;
+      font-weight: lighter;
+  }
+  .forword:hover{
+    cursor: pointer;
+  }
+  

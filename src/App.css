@@ -1,0 +1,17 @@
+/* body,html{
+  height: 100%;
+} */
+
+.img1{
+  height: 100%;
+  background-image: url('https://static.zara.net/photos///contents/mkt/spots/aw22-north-woman-new/subhome-xmedia-35//w/1367/IMAGE-landscape-fill-b9990393-6bee-455e-87ec-86869c68a416-default_0.jpg?ts=1661794819791');
+}
+.bg-image{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}

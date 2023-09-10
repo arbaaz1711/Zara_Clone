@@ -1,0 +1,40 @@
+
+
+.header {
+  display: flex;
+  height: 15vh;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 2;
+  width: 100%;
+}
+.header h2{
+    margin-top: 0%;
+    font-weight: lighter;
+    font-family: gfs didot;
+    font-size: 80px;
+}
+.header div:nth-child(1) {
+  width: 18%;
+  margin-left: 15%;
+}
+.header > span {
+  margin: auto;
+  margin-left: 40%;
+  padding-right: 2%;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+.header div:nth-child(3) {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.header span:hover {
+  cursor: pointer;
+}
+

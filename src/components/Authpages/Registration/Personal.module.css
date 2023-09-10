@@ -1,0 +1,68 @@
+.form {
+  margin-left: 15%;
+  width: 60%;
+}
+.form .inputs {
+  width: 100%;
+  position: relative;
+  margin-bottom: 5%;
+}
+.form .inputs input{
+    width: 45%;
+    /* height: 50px; */
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    transition: 0.3s;
+   
+}
+.form .inputs label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+.form .inputs input:focus + label,
+.form .inputs input:valid + label{
+    transform: translateY(-23px);
+    font-size: 13px;  
+}
+.form .inputs input:nth-child(3){
+    width: 45%;
+    margin-left: 5%;
+}
+.form .inputs label:nth-child(4){
+    margin-left: 50%;
+}
+.form .inputs:nth-child(6) label:nth-child(4){
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: grey;
+}
+.form .inputs:nth-child(6) span:nth-child(3){
+    color: grey;
+    margin-left: 5%;
+}
+
+.checkbox input{
+margin-right: 10px;
+}
+.checkbox span{
+    font-size: 14px;
+    color: grey;
+}
+.form button{
+    width: 45%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 20px 0px;
+}
+.form button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 38, 38);
+}

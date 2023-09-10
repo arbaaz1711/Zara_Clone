@@ -1,0 +1,17 @@
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5% 2%;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.container > div div{
+display: flex;
+justify-content: space-between;
+}
+.container img{
+height:75vh;
+}

@@ -1,0 +1,12 @@
+.container{
+    margin-left: 15%;
+}
+.container h2{
+    margin: 5% 0% 5% 0%;
+}
+.container form{
+    margin-bottom: 3%;
+}
+.container form label{
+    margin-right: 2%;
+}
